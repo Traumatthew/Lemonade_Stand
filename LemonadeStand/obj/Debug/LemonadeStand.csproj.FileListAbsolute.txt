@@ -1,0 +1,2 @@
+C:\Users\Matthew Trau\source\repos\LemonadeStand\LemonadeStand\obj\Debug\LemonadeStand.csprojAssemblyReference.cache
+C:\Users\Matthew Trau\source\repos\LemonadeStand\LemonadeStand\obj\Debug\LemonadeStand.csproj.CoreCompileInputs.cache
