@@ -8,10 +8,10 @@ namespace LemonadeStand
 {
     public class Store
     {
-        //double BuyLemons;
-        //double BuySugar;
-        //double BuyIce;
-        //double BuyCups;
+        double buyLemons;
+        double BuySugar;
+        double BuyIce;
+        double BuyCups;
         public Store(Player player)
         {
             Console.WriteLine("Welcome to the store. What Would you like to purchase?");
@@ -24,7 +24,7 @@ namespace LemonadeStand
             switch (use)
             {
                 case 1:
-                    BuyLemons(player);
+                    buyLemons(player);
                     break;
                 case 2:
                     BuySugar(player);
@@ -40,7 +40,7 @@ namespace LemonadeStand
                     break;
             }
         }
-        
+
         public void BuyLemons(Player player, Lemons lemon)
         {
             Console.WriteLine("How many lemons would you like to purchase? Lemons are .10.");
@@ -93,7 +93,7 @@ namespace LemonadeStand
             }
         }
 
-        public double BuyIce(Player player, Ice ice)
+        public double buyIce(Player player, Ice ice)
         {
             Console.WriteLine("How much sugar would you like to purchase? Sugar is" + ice.Price + ".");
             int amountOfIce = int.Parse(Console.ReadLine());

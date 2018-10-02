@@ -23,13 +23,25 @@ namespace LemonadeStand
         public int[] temperatureToday = new int[] { 70, 80, 90, 100 };
         public string conditionToday = new string[] { "cloudy", "overcast", "rain", "sunny".};
 
-        public void SetTemperture()
+        public void SetTemperture(Random random)
         {
             int temperatureIndex = random.Next(0, 4);
 
             if (temperatureIndex == 0)
             {
-                temperature = "cloudy";
+                temperature = 70;
+            }
+            else if (temperatureIndex == 1)
+            {
+                temperature = 80;
+            }
+            else if (temperatureIndex == 2)
+            {
+                temperature = 90;
+            }
+            else if (temperatureIndex == 3)
+            {
+                temperature = 100;
             }
 
             

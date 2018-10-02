@@ -47,7 +47,6 @@
     <Compile Include="Customer.cs" />
     <Compile Include="Game.cs" />
     <Compile Include="Ice.cs" />
-    <Compile Include="Icew.cs" />
     <Compile Include="Inventory.cs" />
     <Compile Include="Items.cs" />
     <Compile Include="Lemons.cs" />
